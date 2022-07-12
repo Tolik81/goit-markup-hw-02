@@ -102,6 +102,44 @@ color: #2196F3;
 
  /* =====/HERO===== */
 
+ /* ======BUTTON PORTFOLIO===== */
+
+ .button-portfolio{
+    cursor: pointer;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+    
+ }
+
+ .button-portfolio:hover,
+ .button-portfolio:focus{
+background: #2196F3;
+color: #FFFFFF;
+
+ }
+ /* ======Наши работы Портфолио===== */
+ .project-name{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+ }
+
+ .product-name{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+ }
+
  /* =====OUR ADVANTAGES===== */
  
  .our-advantages{
@@ -164,6 +202,9 @@ color: #2196F3;
  
  /* =====FOOTER===== */
  
+ .logo-footer{
+
+ }
  .footer{
-background: #2F303A;
+  background: #2F303A;
  }
