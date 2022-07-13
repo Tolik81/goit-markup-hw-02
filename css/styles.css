@@ -36,7 +36,6 @@ font-family: 'Roboto', sans-serif;
     .menu-link:focus{
 color: #2196F3;
     }
-    
     .contact-mail,
     .contact-phone-number{
             font-weight: 500;
@@ -62,12 +61,8 @@ color: #2196F3;
 
                 /* =====HERO===== */
                 
-                .hero{
-                
-                    background: #2F303A;
-                }
     
-                .effective-solutions{
+.effective-solutions{
             font-weight: 900;
             font-size: 44px;
             line-height: 1.36;
@@ -125,14 +120,13 @@ color: #FFFFFF;
  .project-name{
     font-weight: 700;
         font-size: 18px;
-        line-height: 2;
+        line-height: 2.0;
         letter-spacing: 0.06em;
     
         color: #212121;
  }
 
  .product-name{
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.03em;
@@ -153,7 +147,6 @@ color: #FFFFFF;
  }
  
  .advantages-text{
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -162,24 +155,20 @@ color: #FFFFFF;
  }
  
  /* =======OUR TEAM======= */
+ 
+ .our-team{
+    background: #F5F4FA;
+ }
+ 
  .about-us{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-        text-align: center;
         letter-spacing: 0.03em;
     
         color: #212121;
  }
- .our-team{
-    position: absolute;
-        width: 1600px;
-        height: 648px;
-        left: 0px;
-        top: 1449px;
-    
-        background: #F5F4FA;
- }
+ 
  .name-our-team{
         font-weight: 500;
         font-size: 16px;
@@ -190,7 +179,6 @@ color: #FFFFFF;
         color: #212121;
  }
  .jobtitle-our-team{
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
@@ -203,8 +191,34 @@ color: #FFFFFF;
  /* =====FOOTER===== */
  
  .logo-footer{
-
+font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+ }
+ .logo-studio-footer{
+color: #FFFFFF;
  }
  .footer{
-  background: #2F303A;
- }
+    background: #2F303A;
+}
+.adress-footer{
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.mail-footer,
+.contact-phone-number-footer{
+    font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.current {
+    color: #2196F3;
+}
